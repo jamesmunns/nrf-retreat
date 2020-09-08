@@ -1,7 +1,7 @@
 #![no_main]
 #![no_std]
 
-use esb_lr_ptx as _; // global logger + panicking-behavior + memory layout
+use nrf_retreat as _; // global logger + panicking-behavior + memory layout
 
 #[cortex_m_rt::entry]
 fn main() -> ! {
@@ -9,5 +9,5 @@ fn main() -> ! {
     let frequency: u32 = 276;
     defmt::debug!("FREQUENCY: {0:0..7}, MAP: {0:8..9}", frequency);
 
-    esb_lr_ptx::exit()
+    nrf_retreat::exit()
 }

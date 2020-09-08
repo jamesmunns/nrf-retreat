@@ -1,5 +1,5 @@
 [target.'cfg(all(target_arch = "arm", target_os = "none"))']
-runner = "probe-run --chip nRF52840_xxAA --defmt --probe 1366:1015:000683227822"
+runner = "probe-run --chip nRF52840_xxAA --defmt"
 rustflags = [
   "-C", "link-arg=-Tlink.x",
   "-C", "link-arg=-Tdefmt.x",

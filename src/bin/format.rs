@@ -1,7 +1,7 @@
 #![no_main]
 #![no_std]
 
-use esb_lr_ptx as _; // global logger + panicking-behavior + memory layout
+use nrf_retreat as _; // global logger + panicking-behavior + memory layout
 use defmt::Format; // <- derive attribute
 
 #[derive(Format)]
@@ -22,5 +22,5 @@ fn main() -> ! {
     let x = 42;
     defmt::info!("x={:u8}", x);
 
-    esb_lr_ptx::exit()
+    nrf_retreat::exit()
 }
