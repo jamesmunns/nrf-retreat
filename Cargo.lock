@@ -92,7 +92,7 @@ dependencies = [
 [[package]]
 name = "defmt"
 version = "0.1.0"
-source = "git+https://github.com/knurling-rs/defmt?branch=main#3a0232e4dfc86a9afed024f60f0743b96dbfac5a"
+source = "git+https://github.com/knurling-rs/defmt?branch=main#ad6dc207b9d6434b89e0a70fc847926ee068a655"
 dependencies = [
  "defmt-common",
  "defmt-macros",
@@ -101,12 +101,12 @@ dependencies = [
 [[package]]
 name = "defmt-common"
 version = "0.1.0"
-source = "git+https://github.com/knurling-rs/defmt?branch=main#3a0232e4dfc86a9afed024f60f0743b96dbfac5a"
+source = "git+https://github.com/knurling-rs/defmt?branch=main#ad6dc207b9d6434b89e0a70fc847926ee068a655"
 
 [[package]]
 name = "defmt-macros"
 version = "0.1.0"
-source = "git+https://github.com/knurling-rs/defmt?branch=main#3a0232e4dfc86a9afed024f60f0743b96dbfac5a"
+source = "git+https://github.com/knurling-rs/defmt?branch=main#ad6dc207b9d6434b89e0a70fc847926ee068a655"
 dependencies = [
  "defmt-parser",
  "proc-macro2",
@@ -117,12 +117,12 @@ dependencies = [
 [[package]]
 name = "defmt-parser"
 version = "0.1.0"
-source = "git+https://github.com/knurling-rs/defmt?branch=main#3a0232e4dfc86a9afed024f60f0743b96dbfac5a"
+source = "git+https://github.com/knurling-rs/defmt?branch=main#ad6dc207b9d6434b89e0a70fc847926ee068a655"
 
 [[package]]
 name = "defmt-rtt"
 version = "0.1.0"
-source = "git+https://github.com/knurling-rs/defmt?branch=main#3a0232e4dfc86a9afed024f60f0743b96dbfac5a"
+source = "git+https://github.com/knurling-rs/defmt?branch=main#ad6dc207b9d6434b89e0a70fc847926ee068a655"
 dependencies = [
  "cortex-m",
  "defmt",
